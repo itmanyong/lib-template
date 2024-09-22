@@ -1,13 +1,13 @@
-# lib-template-unbuild
+# lib-template
 
-开发公共 npm 库的模板
+JS库开发模板
 
 ## 步骤
 
 ##### 1. 克隆模板仓库到本地
 
 ```bash
-git clone https://github.com/itmanyong/lib-template-unbuild.git
+git clone https://github.com/itmanyong/lib-template.git
 ```
 
 ##### 2. 安装依赖
@@ -53,5 +53,5 @@ pnpm build
 ##### 6.发布
 
 ```bash
-pnpm publish
+pnpm release
 ```

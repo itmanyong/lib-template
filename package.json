@@ -25,6 +25,7 @@
     "dist"
   ],
   "scripts": {
+    "dev":"tsup --watch",
     "build": "tsup",
     "play": "tsx src/index.ts",
     "release": "bumpp --commit --push --tag && pnpm publish"
