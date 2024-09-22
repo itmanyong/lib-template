@@ -47,18 +47,18 @@
   },
   "license": "MIT",
   "devDependencies": {
+  },
+  "volta": {
+    "node": "20.16.0"
+  },
+  "dependencies": {
     "@biomejs/biome": "^1.9.2",
     "@types/node": "^22.5.5",
     "bumpp": "^9.5.2",
     "mkdist": "^1.5.9",
     "terser": "^5.33.0",
     "tsup": "^8.3.0",
-    "typescript": "^5.6.2"
-  },
-  "volta": {
-    "node": "20.16.0"
-  },
-  "dependencies": {
+    "typescript": "^5.6.2",
     "tsx": "^4.19.1"
   }
 }
